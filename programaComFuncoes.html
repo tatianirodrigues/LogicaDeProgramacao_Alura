@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    function mostra(texto){
+        document.write(texto);
+        pulaLinha();
+    }
+
+    var ano = 2022;
+    var idadeFlavio = (ano - 1998);
+    var idadeAna = (ano - 1967);
+    var idadeMariana = (ano - 2001);
+
+    //document.write("Flavio tem " + (idadeFlavio) + " anos");
+    mostra("Flavio tem " + (idadeFlavio) + " anos");
+    mostra("Ana tem " + (idadeAna) + " anos");
+    mostra("Mariana tem " + (idadeMariana ) + " anos");
+
+    var media = (idadeFlavio + idadeAna + idadeMariana )/3;
+ 
+    mostra("Média das idades: " + (media));
+    mostra("Média das idades arendada: " + Math.round(media));
+
+</script>
