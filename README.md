@@ -1,0 +1,1 @@
+Exercícios feitos no "Curso de Lógica de programação I: crie programas com Javascript e HTML" na plataforma Alura.
