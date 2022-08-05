@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+<script>
+     function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+    var numeroPensado = Math.round(Math.random() * 10);
+    console.log(numeroPensado);
+    
+    var x = 0;
+    while(x < 3){
+        
+        var chute = parseInt(prompt("Acabei de pensar em um número entre 0 e 10. Digite seu chute! Você tem três chances!!"));
+        if(chute == numeroPensado){
+            break;
+        }
+    x++;
+    }
+    if (chute == numeroPensado) {
+        mostra("Você acertou!");
+        }
+        else{
+        mostra("Você errou, seu número pensado foi " + numeroPensado);
+        }
+</script>
